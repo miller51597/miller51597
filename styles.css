@@ -1,0 +1,146 @@
+#nav-content{
+	
+	
+}
+.nav_l{
+	font-family: sans-serif;
+	
+	color: white;
+	padding:0 10px;
+}
+.nav_l:hover{
+	text-decoration: none;
+	color: white;
+}
+.nav-item :hover{
+	background-color: #81bb51;
+	border-radius: 5px;
+	
+}
+h4{
+	font-size: 3em;
+}
+h2{
+	color: #81bb51;
+}
+.img{
+	height: 150px;
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	border-radius: 10px;
+	margin-top: 50%;
+}
+
+
+body{
+	height: 100%;
+	width: 100%;
+}
+#facebook{
+	position: relative;
+	padding-left: 10px;
+	
+}
+.container{
+	padding: 0;
+	height: 100%;
+	
+}
+.site-header{
+	background-color: #1e4f70;
+	margin-top: 10px;
+}
+.card{
+	border: none;
+	text-align: center;
+	padding: 10px;
+
+
+}
+.color0{
+	margin-bottom: 20%;
+	margin-top: 10%;
+}
+.color1{
+	margin-top: 40px;
+	
+}
+h4{
+	font: Big Casion;
+	color: #81bb51;
+}
+.color3{
+	padding-top: 80px;
+}
+
+.color5{
+	background-color: #81bb51;
+	border-style: solid;
+	border-color: white;
+}
+.pac_p{
+	background-color: #81bb51;
+	display: inline-block;
+}
+.pac_card{
+	background-color: #81bb51;
+}
+
+.pac_pic{
+	background-image: url(Healthy%20Eats.jpg);
+	
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+	float: right;
+	
+}
+
+.con{
+	background-color: #52bae6;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
